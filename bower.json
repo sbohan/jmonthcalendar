@@ -16,7 +16,10 @@
   "license": "MIT",
   "homepage": "http://kyleleneau.com/portfolio/jmonthcalendar/",
   "private": true,
-  "ignore": [
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/climboid/jmonthcalendar/tree/master"
+  },"ignore": [
     "**/.*",
   ]
 }
