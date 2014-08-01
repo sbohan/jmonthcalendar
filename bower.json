@@ -1,0 +1,22 @@
+{
+  "name": "jmonth-calendar",
+  "authors": [
+    "k.leneau@gmail.com",
+    "oscarvillarreal14@gmail.com"
+  ],
+  "description": "\"MonthCalendar is a full month calendar that supports events. You add options and events, and it handles the rest",
+  "main": ["jquery-1.3.js","jMonthCalendar.js","jMonthCalendar.css"],
+  "keywords": [
+    "MonthCalendar",
+    "jMonthCalendar",
+    "jmonth",
+    "calendar"
+  ],
+  "dependencies": { "jquery": ">=1.2.3" },
+  "license": "MIT",
+  "homepage": "http://kyleleneau.com/portfolio/jmonthcalendar/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+  ]
+}
