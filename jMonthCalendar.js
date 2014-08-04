@@ -19,8 +19,6 @@
 	var _endDate;
 	var calendarEvents;
 	var defaults = {
-			height: 650,
-			width: 980,
 			navHeight: 25,
 			labelHeight: 25,
 			firstDayOfWeek: 0,
