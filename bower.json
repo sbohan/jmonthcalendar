@@ -3,7 +3,6 @@
   "authors": [ "k.leneau@gmail.com", "oscarvillarreal14@gmail.com" ],
   "description": "MonthCalendar is a full month calendar that supports events.",
   "main": [ 
-  "jquery-1.3.js",
   "jMonthCalendar.js",
   "jMonthCalendar.css" 
   ],
