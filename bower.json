@@ -13,7 +13,7 @@
   "jmonth",
   "calendar" 
   ],
-  "dependencies": { "jquery": ">=1.2.3" },
+  "dependencies": { "jquery": "latest" },
   "license": "MIT",
   "homepage": "http://kyleleneau.com/portfolio/jmonthcalendar/",
   "private": false,
