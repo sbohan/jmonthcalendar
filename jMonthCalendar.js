@@ -330,7 +330,7 @@
 						var cell = jQuery("#" + getDateId(sDt), jQuery(ids.container));
 						var label = jQuery(".DateLabel", cell);
 						
-						var link = jQuery('<a href="' + ev.URL + '">' + ev.Title + '</a>');
+						var link = jQuery('<span>' + ev.Title + '</span>');
 						link.click(function(e) {
 							defaults.onEventLinkClick(ev);
 							e.stopPropagation();
