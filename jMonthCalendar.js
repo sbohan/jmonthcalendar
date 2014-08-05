@@ -241,7 +241,7 @@
 				}
 				
 				//DateBox Events
-				var dateLink = jQuery('<div class="DateLabel"><a href="">' + _currentDate.getDate() + '</a></div>').click(function(e) {
+				var dateLink = jQuery('<div class="DateLabel"><span>' + _currentDate.getDate() + '</span></div>').click(function(e) {
                     defaults.onDayLinkClick(new Date($(this).parent().attr("date")));
                     e.stopPropagation();
                 });
