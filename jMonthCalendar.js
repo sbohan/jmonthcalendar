@@ -18,6 +18,7 @@
 	var _beginDate;
 	var _endDate;
 	var calendarEvents;
+	var calendarClickEvent;
 	var defaults = {
 			navHeight: 25,
 			labelHeight: 25,
@@ -332,6 +333,7 @@
 						
 						var link = jQuery('<span>' + ev.Title + '</span>');
 						link.click(function(e) {
+							calendarClickEvent = e;
 							defaults.onEventLinkClick(ev);
 							e.stopPropagation();
 						});
@@ -340,6 +342,7 @@
 						
 						if(ev.CssClass) { event.addClass(ev.CssClass) }
 						event.click(function(e) { 
+							calendarClickEvent = e;
 							defaults.onEventBlockClick(ev); 
 							e.stopPropagation(); 
 						});
@@ -378,6 +381,10 @@
 			DrawEventsOnCalendar();
 		}
 	}
+
+	jQuery.J.GetLatestClickEvent = function() {
+    	return calendarClickEvent;
+  	}
 	
 	jQuery.J.ReplaceEventCollection = function(eventCollection) {
 		if(eventCollection) {
